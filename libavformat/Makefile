@@ -656,6 +656,7 @@ OBJS-$(CONFIG_TLS_PROTOCOL)              += tls.o $(TLS-OBJS-yes)
 OBJS-$(CONFIG_UDP_PROTOCOL)              += udp.o ip.o
 OBJS-$(CONFIG_UDPLITE_PROTOCOL)          += udp.o ip.o
 OBJS-$(CONFIG_UNIX_PROTOCOL)             += unix.o
+OBJS-$(CONFIG_UNIX_Y_PROTOCOL)           += unix_y.o
 
 # external library protocols
 OBJS-$(CONFIG_LIBAMQP_PROTOCOL)          += libamqp.o
